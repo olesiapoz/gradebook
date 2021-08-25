@@ -4,14 +4,14 @@
     "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+    "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\gradebook\\gradebook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\GradeBook\\GradeBook.csproj",
-        "projectName": "GradeBook",
-        "projectPath": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectUniqueName": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\gradebook\\gradebook.csproj",
+        "projectName": "gradebook",
+        "projectPath": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\gradebook\\gradebook.csproj",
         "packagesPath": "C:\\Users\\OlesiaPozdniakova\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\GradeBook\\obj\\",
+        "outputPath": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\gradebook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OlesiaPozdniakova\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
-                "projectPath": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\GradeBook\\GradeBook.csproj"
+              "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\gradebook\\gradebook.csproj": {
+                "projectPath": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\gradebook\\gradebook.csproj"
               }
             }
           }
@@ -134,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

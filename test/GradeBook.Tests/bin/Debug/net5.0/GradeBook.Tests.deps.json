@@ -8,9 +8,9 @@
     ".NETCoreApp,Version=v5.0": {
       "GradeBook.Tests/1.0.0": {
         "dependencies": {
-          "GradeBook": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.9.4",
           "coverlet.collector": "3.1.0",
+          "gradebook": "1.0.0",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3"
         },
@@ -1090,9 +1090,9 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
-      "GradeBook/1.0.0": {
+      "gradebook/1.0.0": {
         "runtime": {
-          "GradeBook.dll": {}
+          "gradebook.dll": {}
         }
       }
     }
@@ -1747,7 +1747,7 @@
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
-    "GradeBook/1.0.0": {
+    "gradebook/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
