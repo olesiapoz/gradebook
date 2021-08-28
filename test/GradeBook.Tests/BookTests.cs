@@ -6,6 +6,40 @@ namespace GradeBook.Tests
 {
     public class BookTests
     {
+        public delegate string LogMessageDelegate(string logMessage);
+        int count = 0;
+
+        [Fact]
+        public void LogMessageDelegateToMethod()
+        {
+            LogMessageDelegate log = ReturnMessage;
+            log += ReturnMessage;
+            log += MessageToLower;
+
+
+            //initiliase log
+            //log = new LogMessageDelegate (ReturnMessage);
+            //log = ReturnMessage;
+
+            var result = log("Hello");
+
+            //Assert.Equal("Hello", result);
+            Assert.Equal(3, count);
+
+        }
+            
+        string MessageToLower(string returnMessage)
+        {
+            count++;
+            return returnMessage.ToLower();
+           
+        }
+        string ReturnMessage(string returnMessage)
+        {
+             count++;
+            return returnMessage;
+        }
+
         [Fact]
         public void TestStatistics()
         {
@@ -34,8 +68,8 @@ namespace GradeBook.Tests
 
             //act
             book.AddGrade(99.1);
-            book.AddGrade(590.1);
-            book.AddGrade(-78.1);
+            //book.AddGrade(590.1);
+            //book.AddGrade(-78.1);
             book.AddGrade(0);
             book.AddGrade(100);
 

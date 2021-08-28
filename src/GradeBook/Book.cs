@@ -95,8 +95,17 @@ namespace GradeBook
             return result;
         }
 
-        public List<double> Grades;
-        public string Name;
+        public List<double> Grades
+        {
+            get;
+            set;
+        }
+        public string Name
+         {
+             get;
+             set;
+         }
+
 
 
     

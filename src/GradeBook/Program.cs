@@ -15,7 +15,8 @@ namespace GradeBook
         {
             Console.WriteLine($"Provide grade value for book {book.Name} or enter Q to quit");
             var input = Console.ReadLine();
-            if(String.Equals(input, "q", StringComparison.OrdinalIgnoreCase))
+            //if(String.Equals(input, "q", StringComparison.OrdinalIgnoreCase))
+            if(input == "q")
             {
                 break;
             };
@@ -24,14 +25,19 @@ namespace GradeBook
             var grade = double.Parse(input);
             book.AddGrade(grade);
             Console.WriteLine("Grade {0} is added to Book {1}", grade, book.Name);
-            
             }
-            catch (Exception e)
+            catch (FormatException e)
             {
                 Console.WriteLine(e.Message);
             }
-            
-            
+             catch (ArgumentException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                Console.WriteLine("**");
+            }
             
         }
         
