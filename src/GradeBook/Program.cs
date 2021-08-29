@@ -6,9 +6,10 @@ namespace GradeBook
     class Program
     {
         static void Main(string[] args)
+        //static methods can reach only static members of its class
         {
             var book = new Book("Ole");
-            
+            book.GradeAdded += GradeIsAdded;
     
 
         while(true)
@@ -49,5 +50,10 @@ namespace GradeBook
 
            
         }
+    //subscribe to GradeAdded event
+    static void GradeIsAdded(object sender, EventArgs e)
+    {
+    Console.WriteLine($"Grade is added to the book {sender}");
+    }
     }
 }

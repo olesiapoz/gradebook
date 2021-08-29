@@ -16,6 +16,11 @@ namespace GradeBook
             if(grade <= 100 && grade >= 0 )
             {
             Grades.Add(grade);
+            //track grade is added event
+            if(GradeAdded != null)
+            {
+                GradeAdded(this, new EventArgs());
+            }
             }
             else
             {
@@ -94,6 +99,7 @@ namespace GradeBook
 
             return result;
         }
+        public event GradeAddedDelegate  GradeAdded;
 
         public List<double> Grades
         {

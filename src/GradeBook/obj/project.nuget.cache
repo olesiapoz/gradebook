@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fnk6hIe2izYw4nbY9cT9FJ5TdOZ3K/OyRV+5DQD7j/h63iYxyVrXS+U8OcjbV0YyxR0uTZTkiXfV6emUWeougQ==",
+  "dgSpecHash": "iwVQTu34arGYGL8xcqFSNmg91MzRaf7lD4Ocsbm1y0ieIlWIYeYtKBJWPTkDMytyb8+89Gx23BJlgphrPFEvGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\gradebook\\gradebook.csproj",
+  "projectFilePath": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\GradeBook\\GradeBook.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

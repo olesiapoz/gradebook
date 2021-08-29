@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\gradebook\\gradebook.csproj": {}
+    "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\GradeBook\\GradeBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\gradebook\\gradebook.csproj": {
+    "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\gradebook\\gradebook.csproj",
-        "projectName": "gradebook",
-        "projectPath": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\gradebook\\gradebook.csproj",
+        "projectUniqueName": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectName": "GradeBook",
+        "projectPath": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\GradeBook\\GradeBook.csproj",
         "packagesPath": "C:\\Users\\OlesiaPozdniakova\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\gradebook\\obj\\",
+        "outputPath": "C:\\Users\\OlesiaPozdniakova\\OneDrive - Cloudeon\\Repos\\gradebook\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OlesiaPozdniakova\\AppData\\Roaming\\NuGet\\NuGet.Config",
